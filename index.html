@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <title>Random Quote Generator</title>
+
+</head>
+<body>
+  <div class="container">
+    <h1>
+      <i class="fas fa-quote-left"></i>
+      <span class="quote" id="quote"></span>
+      <i class="fas fa-quote-right"></i>
+
+    </h1>
+    <p class="author" id="author"></p>
+
+    <hr>
+    <div class="buttons">      
+        <a class="vk" id="post"  target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-vk fa-4x"> </i>
+        </a>
+            
+      <button class="next" onclick="getNewQuote()">See next quote</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
